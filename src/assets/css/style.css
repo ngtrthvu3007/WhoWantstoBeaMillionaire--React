@@ -1,0 +1,51 @@
+.bg-image {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.logo{
+  margin-left: 10px;
+}
+.image{
+  margin-top: 45rem;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.custom-bg{
+  background-image: url('../images/bg-button.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.custom-modal .modal-content {
+  
+  text-align: center;
+  background-color: #00337C;
+  color: #FFE15D;
+  max-width: 500px;
+}
+.modal-input{ 
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding-left: 20px;
+ 
+}
+
+.btn-playnow{
+  color: #fff;
+}
