@@ -1,16 +1,16 @@
 .bg-image {
-    background-image: url("../images/bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    position: relative;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
-.logo{
+.logo {
   margin-left: 10px;
 }
-.image{
+.image {
   margin-top: 45rem;
 }
 
@@ -18,8 +18,8 @@ li {
   list-style-type: none;
   cursor: pointer;
 }
-.custom-bg{
-  background-image: url('../images/bg-button.png');
+.custom-bg {
+  background-image: url("../images/bg-button.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,21 +31,82 @@ li {
 }
 
 .custom-modal .modal-content {
-  
   text-align: center;
-  background-color: #00337C;
-  color: #FFE15D;
+  background-color: #00337c;
+  color: #ffe15d;
   max-width: 500px;
 }
-.modal-input{ 
+.modal-input {
   border-radius: 10px;
   border: none;
   height: 40px;
   width: 100%;
   padding-left: 20px;
- 
 }
 
-.btn-playnow{
+.btn-playnow {
   color: #fff;
+}
+.top-box {
+  min-height: 100px;
+  max-height: 240px;
+  position: relative;
+}
+.icon-help {
+  margin-bottom: 10px;
+  background-image: url("../images/x3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+/*
+.list-icon {
+  display: flex;
+} */
+
+.item {
+  font-weight: 600;
+}
+.main-side {
+  min-height: 400px;
+}
+.question-box {
+  min-height: 30px;
+  max-height: 70px;
+  max-width: 100px;
+  border: 1px solid #ffe15d;
+  background-color: #00337c;
+  border-radius: 40px;
+}
+
+.answer-box {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border: 1px solid #ffe15d;
+  background-color: #00337c;
+  border-radius: 40px;
+}
+.answer-box:hover {
+  background-color: #009a59;
+}
+
+.oclock-icon {
+  background-image: url("../images/border-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 130px;
+  width: 130px;
+}
+
+.coutdown-time {
+  font-size: 55px;
 }
